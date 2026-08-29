@@ -19,12 +19,14 @@ jobs:
       # 📥 Step 1: Clone the source code from the repository
       - name: Clone Source Code
         uses: actions/checkout@v4
+        with:
+          # Needed so SonarQube can do accurate blame/history analysis
+          fetch-depth: 0
 
       # 🟢 Step 2: Set up the Node.js environment
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          # Specify the Node.js version used by the project
           node-version: '18'
 
       # 📦 Step 3: Install all project dependencies
@@ -35,8 +37,8 @@ jobs:
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
         env:
-          # 🔐 Authentication token used to connect to SonarQube
+          # 🔐 Authentication token used to connect to SonarCloud
+          # SONAR_HOST_URL removed — it was overriding sonar.host.url
+          # in sonar-project.properties with an empty value, causing
+          # "URI with undefined scheme"
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-          # 🌐 URL of the SonarQube server
-          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
