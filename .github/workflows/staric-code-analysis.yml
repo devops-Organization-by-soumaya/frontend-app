@@ -1,0 +1,42 @@
+# ✅ Name of the workflow
+name: Pipeline CI/CD sonarqube-code-quality-scan-job
+
+# ✅ Trigger this workflow on pull requests to the main branch
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  # 🔍 Job responsible for running the SonarQube code quality analysis
+  sonarqube-code-quality-scan-job:
+
+    # 🖥️ Run the job on the latest Ubuntu runner provided by GitHub
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # 📥 Step 1: Clone the source code from the repository
+      - name: Clone Source Code
+        uses: actions/checkout@v4
+
+      # 🟢 Step 2: Set up the Node.js environment
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          # Specify the Node.js version used by the project
+          node-version: '18'
+
+      # 📦 Step 3: Install all project dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 🔎 Step 4: Run SonarQube code quality and security analysis
+      - name: SonarQube Scan
+        uses: sonarsource/sonarqube-scan-action@master
+        env:
+          # 🔐 Authentication token used to connect to SonarQube
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
+          # 🌐 URL of the SonarQube server
+          SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
