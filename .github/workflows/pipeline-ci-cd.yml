@@ -11,7 +11,7 @@ on:
 env:
   BUILD_NUMBER: ${{ github.run_number }}  # Unique build number for the pipeline run
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontend-app:${{ github.run_number }}
-  VITE_API_URL: https://api.150.lebondeveloppeur.net
+  VITE_API_URL: https://frontend.198.lebondeveloppeur.net 
   PORT: 3000  # Define a configurable port
 
 jobs:
