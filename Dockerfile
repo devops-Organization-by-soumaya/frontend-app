@@ -1,6 +1,9 @@
-# Use official Node.js 14 as base image
-FROM  --platform=linux/amd64 node:18 AS build
-RUN apk update && apk upgrade --no-cache
+# Use official Node.js 18 as base image
+FROM --platform=$BUILDPLATFORM node:18 AS build
+
+# Update OS packages to patch known vulnerabilities (Debian-based image → apt-get, not apk)
+RUN apt-get update && apt-get upgrade -y && rm -rf /var/lib/apt/lists/*
+
 # Set working directory
 WORKDIR /app
 
@@ -12,7 +15,7 @@ ENV VITE_API_URL=${VITE_API_URL}
 COPY package*.json ./
 
 # Install dependencies
-RUN npm install  --force
+RUN npm install --force
 
 # Copy the rest of the client code
 COPY . .
@@ -21,7 +24,7 @@ COPY . .
 RUN npm run build
 
 
-FROM  --platform=linux/amd64 nginx:alpine
+FROM --platform=$BUILDPLATFORM nginx:alpine
 # Upgrade libexpat to patched version (fixes CVE-2026-45186)
 RUN apk upgrade --no-cache libexpat
 # Copy the build artifacts from the build stage
@@ -33,4 +36,3 @@ COPY nginx.conf /etc/nginx/nginx.conf
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
-
