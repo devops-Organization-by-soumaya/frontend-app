@@ -1,6 +1,6 @@
 # Use official Node.js 14 as base image
 FROM  --platform=linux/amd64 node:18 AS build
-
+RUN apk update && apk upgrade --no-cache
 # Set working directory
 WORKDIR /app
 
