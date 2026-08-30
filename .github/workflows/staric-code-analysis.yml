@@ -41,23 +41,39 @@ jobs:
           # 🌐 URL of the SonarQube server
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
+  # 🛡️ Job responsible for scanning the Docker image and filesystem for vulnerabilities
   trivy-image-security-scan-job:
     runs-on: ubuntu-latest
-    steps:      
+
+    env:
+      IMAGE_NAME: my-app:${{ github.sha }}
+
+    steps:
+      # 📥 Step 1: Clone the source code from the repository
       - name: Checkout Code
         uses: actions/checkout@v4
-      - name: Install dependencies
-        run: sudo apt-get update && sudo apt-get install -y curl
-      - name: Download and install Trivy
-        run: |
-          curl -sSL https://github.com/aquasecurity/trivy/releases/download/v0.29.0/trivy_0.29.0_Linux-64bit.tar.gz -o trivy.tar.gz
-          tar xzvf trivy.tar.gz
-          sudo mv trivy /usr/local/bin/
-          trivy --version
-      - name: Run Trivy Docker image vulnerability scan
-        run: |
-          docker build -t ${{ env.IMAGE_NAME }} .
-          trivy image ${{ env.IMAGE_NAME }}
 
-           trivy fs .  # alternative solution
-         
+      # 🏗️ Step 2: Build the Docker image to be scanned
+      - name: Build Docker image
+        run: docker build -t ${{ env.IMAGE_NAME }} .
+
+      # 🔎 Step 3: Run Trivy vulnerability scan on the built Docker image
+      - name: Run Trivy Docker image vulnerability scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: ${{ env.IMAGE_NAME }}
+          format: 'table'
+          exit-code: '1'
+          ignore-unfixed: true
+          vuln-type: 'os,library'
+          severity: 'CRITICAL,HIGH'
+
+      # 🔎 Step 4 (optional): Also scan the filesystem/repo itself
+      - name: Run Trivy filesystem scan
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          scan-ref: '.'
+          format: 'table'
+          exit-code: '0'
+          severity: 'CRITICAL,HIGH'
