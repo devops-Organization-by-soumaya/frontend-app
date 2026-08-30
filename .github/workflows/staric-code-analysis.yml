@@ -90,3 +90,5 @@ jobs:
 
       - name: Run Snyk Vulnerability Scan
         run: snyk monitor --all-projects --org=devops-Organization-by-soumaya
+
+        # Optional: You can also run `snyk test` to fail the build if vulnerabilities are found
