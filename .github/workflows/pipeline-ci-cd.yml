@@ -13,7 +13,7 @@ env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/frontend-app:${{ github.run_number }}
   VITE_API_URL: https://api.198.lebondeveloppeur.net 
   PORT: 3000  # Define a configurable port
-
+#lo
 jobs:
   # ✅ Run Unit Tests
   unit-test-job:
