@@ -1,0 +1,473 @@
+[33mcommit f03be72985ac2fcd2cfd13f6a5cf11d799eb12f9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: eea674d d4fa6b5
+Author: soumaya arfaoui <110297546+Soumayaarfaoui@users.noreply.github.com>
+Date:   Sun Aug 30 17:20:29 2026 +0100
+
+    Merge pull request #3 from devops-Organization-by-soumaya/test
+    
+    synk
+
+[33mcommit d4fa6b5a6862328655165636b4f9b3600ef636fa[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 17:18:05 2026 +0100
+
+    synk
+
+[33mcommit eea674d9ae4893fc90176cb5b20a4d84f4ba27f9[m
+Merge: acc4696 a96931e
+Author: soumaya arfaoui <110297546+Soumayaarfaoui@users.noreply.github.com>
+Date:   Sun Aug 30 16:13:56 2026 +0100
+
+    Merge pull request #2 from devops-Organization-by-soumaya/test
+    
+    add trivy
+
+[33mcommit a96931e4117f12c33605d9589dbe77861bb1a481[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 16:06:06 2026 +0100
+
+    fix docekr file 2
+
+[33mcommit 77bd8c4013155a9a30e471b0e56c4bc1c9c59ead[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 16:01:29 2026 +0100
+
+    fix docekr file
+
+[33mcommit 8addd387b5a0e30f9aee6474df9e1f57a522e57a[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 15:56:40 2026 +0100
+
+    fix trivy
+
+[33mcommit c9c672b199fdbcf8c5cf90e62ed33cb93f705617[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 14:50:36 2026 +0100
+
+    add trivy2
+
+[33mcommit 5f021711a07757844b8a5c714998a135257c8eee[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 13:12:17 2026 +0100
+
+    add trivy
+
+[33mcommit acc46963fc350413bbb7fab3adfe24fcfb9c7de0[m
+Merge: 214f44e b4b5b81
+Author: soumaya arfaoui <110297546+Soumayaarfaoui@users.noreply.github.com>
+Date:   Sun Aug 30 01:29:10 2026 +0100
+
+    Merge pull request #1 from devops-Organization-by-soumaya/test
+    
+    fix
+
+[33mcommit b4b5b81ed1f5302a7c2a71f3bcbb0b578682eeba[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 00:43:00 2026 +0100
+
+    fix pro urls
+
+[33mcommit b8be230df20178a0af19c22007ba0d89b5d58c97[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 00:40:15 2026 +0100
+
+    fix pro url
+
+[33mcommit 229ae9975f2be7dff93ce01ab973438c6b74ac50[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 00:34:09 2026 +0100
+
+    fix 221
+
+[33mcommit 880cc1cb4d641901be35130a7b265abf6697ce8d[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 00:31:58 2026 +0100
+
+    fix 2
+
+[33mcommit 8758477b21c109056aee82757e75cc532a1ade76[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sun Aug 30 00:02:03 2026 +0100
+
+    fix
+
+[33mcommit 214f44e35785e8ee390f5584a015b0fbb0fbf96c[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sat Aug 29 13:15:22 2026 +0100
+
+    change the nav bar
+
+[33mcommit 761a84ee2dd551f6f87f6694212432a3991b374d[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sat Aug 29 12:51:08 2026 +0100
+
+    fix pipeline
+
+[33mcommit 523e3f1916bd74c6f5047f2328d2e0563566ffc8[m
+Author: Soumayaarfaoui <soumaya.arfoui2022@gmail.com>
+Date:   Sat Aug 29 12:35:33 2026 +0100
+
+    pipleline
+
+[33mcommit 21858540e7b9aafb61cc744de5bf84f0bc0ae4a8[m
+Author: Talel Ben Belgacem <58850422+talel12@users.noreply.github.com>
+Date:   Mon Aug 10 21:05:30 2026 +0100
+
+    Remove extra period from the title tag
+
+[33mcommit 8ce17f92bd1881c6db1e521f057b962c92b2979a[m
+Merge: 85a7edf 0aaecc3
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Fri Jul 10 00:21:28 2026 +0100
+
+    Merge pull request #1 from DevOps-Lebondeveloppeur/test
+    
+    fix
+
+[33mcommit 0aaecc3bdf4c4da867e649076eb66491da72cd75[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Fri Jul 10 00:20:09 2026 +0100
+
+    fix
+
+[33mcommit 85a7edfe760805b07c7039a37e579c6a1d3ec8e3[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Thu Jul 9 23:45:09 2026 +0100
+
+    fix
+
+[33mcommit ff1fe08336e12460434e52bdef457d374287a2b5[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Thu Jul 9 23:33:39 2026 +0100
+
+    fix
+
+[33mcommit 278cb2df04a634f3c55dda0fbabe7200c3f56901[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Thu Jul 9 23:31:57 2026 +0100
+
+    fix
+
+[33mcommit 445507efd9843675b2d4b962623cdbd9060fb333[m
+Merge: 2b0cec9 99bf543
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 28 20:45:38 2026 +0100
+
+    Merge pull request #4 from DevOps-Lebondeveloppeur-Session17/newFeature
+    
+    fix
+
+[33mcommit 99bf543d1c430dcbbd63f7ef5085c5ae7486c73a[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 28 20:45:10 2026 +0100
+
+    f
+
+[33mcommit a80b92010d34cc2ec2ff00e09a782fd6393ba666[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:34:33 2026 +0100
+
+    fix
+
+[33mcommit 54c5249752997f753bf3686d642ca013c3647e90[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:34:03 2026 +0100
+
+    fix
+
+[33mcommit 729a800e10031f8b36e8ec1a7c724d02536fe7a8[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:19:54 2026 +0100
+
+    fix libexpat
+
+[33mcommit df9f4ca91e84602714e4cea178179dc5b8a3b79b[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:16:26 2026 +0100
+
+    fix
+
+[33mcommit 4ca050e3b304ec05b6536e9bfd79400a995aed3b[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:15:24 2026 +0100
+
+    fix
+
+[33mcommit 1f13b41026d1f41a448ed0811d045dfc662f4cfe[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:13:51 2026 +0100
+
+    fix
+
+[33mcommit 2b0cec926a42786a57de54aaa56e06ed790e8b41[m
+Merge: 4f11333 f4bbf25
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:08:32 2026 +0100
+
+    Merge pull request #3 from DevOps-Lebondeveloppeur-Session17/newFeature
+    
+    implment new feature
+
+[33mcommit f4bbf25509c9607db146131dfa5b34febacdbb94[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 21 20:05:21 2026 +0100
+
+    implment new feature
+
+[33mcommit 4f113332b62b70b75b60b81aaf1faa362ef1cb6b[m
+Merge: ca7839c 20d933c
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:54:28 2026 +0100
+
+    Merge pull request #2 from DevOps-Lebondeveloppeur-Session17/test-sonar
+    
+    fix
+
+[33mcommit 20d933ca7ff6005080fe7caa1234d086f080a59e[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:52:27 2026 +0100
+
+    fix
+
+[33mcommit b7a5bb9c6010893f50f5ee18e9f493c44c393d0b[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:48:50 2026 +0100
+
+    fix
+
+[33mcommit ca7839cd23e65ae1a69b61631dc95e50e0e52bb8[m
+Merge: 1cf79b6 a085db3
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:45:12 2026 +0100
+
+    Merge pull request #1 from DevOps-Lebondeveloppeur-Session17/test-sonar
+    
+    Test sonar
+
+[33mcommit a085db39177a3878a397f4c4cce64031b031a0cc[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:42:28 2026 +0100
+
+    fix
+
+[33mcommit 2bf78d5406b3ae4403839d62eaa4ab0d09b7182b[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:38:34 2026 +0100
+
+    fix sonar issue
+
+[33mcommit 47d3d79725e637d184325056c7110666f2d1a9a6[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:32:43 2026 +0100
+
+    fix
+
+[33mcommit bab815b9484d6111efa27d7691bee7d56c4e5925[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:29:03 2026 +0100
+
+    fix
+
+[33mcommit 6fb02bb1f9c2188c9ba616e53c870685339abd94[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:25:11 2026 +0100
+
+    fix
+
+[33mcommit fefa6cb300eade5541b880181dc3f8375840baa6[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 20 20:22:00 2026 +0100
+
+    fix
+
+[33mcommit 1cf79b68c793410bbc21b728e36903a169e4626e[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Fri Jun 19 20:05:13 2026 +0100
+
+    change the title of the  home page
+
+[33mcommit c1d106d816554c9b0dfdfd5f47deb8cbe986e90a[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Fri Jun 19 19:58:58 2026 +0100
+
+    change platform logo
+
+[33mcommit 651a4ea00f4a36377b8c9a8c6749db8c84f3cd7c[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Fri Jun 19 19:54:31 2026 +0100
+
+    fix
+
+[33mcommit fc6a1b009ab3a587c655a4d1ab6130fe2b76ee51[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sun Jun 14 19:56:45 2026 +0100
+
+    fix
+
+[33mcommit 8fb1cae3cc7344d78eba7d7e2efb60f2886ac73c[m
+Author: Talel Ben Belgacem <58850422+talel12@users.noreply.github.com>
+Date:   Fri Oct 17 21:45:34 2025 +0100
+
+    Update Navbar link text with emoji
+
+[33mcommit 6df9d2cb7634851a89980c7d2ba3a2b96fddb0cb[m
+Author: Talel Ben Belgacem <talelbenbelgacem12@gmail.com>
+Date:   Sat Aug 2 21:36:35 2025 +0100
+
+    Session 13 Init
+
+[33mcommit 3edc0b86ec20228f3a8d54dfe1a1f10aeb053a7f[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Aug 2 17:30:26 2025 +0100
+
+    fix
+
+[33mcommit 5afb887d341f8cf50eea864b72541386f9e5b4d7[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Aug 2 08:32:07 2025 +0100
+
+    fix
+
+[33mcommit 6ed9e6733f1dfebb0eb70fccb098debf771a149f[m
+Author: Talel Ben Belgacem <talelbenbelgacem12@gmail.com>
+Date:   Sat Jun 28 20:56:41 2025 +0100
+
+    Session12
+
+[33mcommit 6ac14ecf9470b4cc5a8ab18335cd64a115352210[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 14 15:05:23 2025 +0100
+
+    fix
+
+[33mcommit fd58ffe670be6ecf0a5a8fb64d3a760c66e56ef2[m
+Author: Wassim Assidi <assidi.wassim.fsm@hotmail.com>
+Date:   Sat Jun 14 14:15:38 2025 +0100
+
+    fix
+
+[33mcommit d9764ee7b28ca1f2520ec0a96bad00557d587f15[m
+Author: Wassim Assidi <assidi.wassim.dev@gmail.com>
+Date:   Mon May 26 21:21:36 2025 +0100
+
+    change logo
+
+[33mcommit 0774954c22c1e6f9f5ad26c4655afba72faae920[m
+Author: Wassim Assidi <assidi.wassim.dev@gmail.com>
+Date:   Mon May 26 15:03:19 2025 +0100
+
+    fix
+
+[33mcommit 971ada2a73ba1c4c1a77a66059be1cd7c20fe717[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri May 9 20:36:46 2025 +0100
+
+    Update text logo
+
+[33mcommit 8b7decdc501cfef300a74c5a01e38905383e300b[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri May 9 20:35:46 2025 +0100
+
+    Update text logo
+
+[33mcommit 784969574b9f64e82ca590f28de9fcc1c67e0cb6[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri May 9 20:29:19 2025 +0100
+
+    Update text logo
+
+[33mcommit d3d661fa6afa56689af074410b27ea2b97c0b144[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Wed May 7 22:14:10 2025 +0100
+
+    fix
+
+[33mcommit 5297605d7b31393bf1a3d118d0ba92dc730d45b8[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Wed May 7 20:36:01 2025 +0100
+
+    fix
+
+[33mcommit 2cea5b5d615abf76e9392f4035e2cd34da9801f1[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Wed May 7 20:35:15 2025 +0100
+
+    fix
+
+[33mcommit cbd304d619076a0e179d96e98a3771bd71450bd0[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri Apr 18 21:01:46 2025 +0100
+
+    fix logo
+
+[33mcommit bd879d192aa3599f4587ae0c43fb401922d4c635[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri Apr 18 17:25:53 2025 +0100
+
+    fix docker compose
+
+[33mcommit 8b2a53386722565f79de7225bb622e7776ad8e13[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sun Apr 6 18:14:20 2025 +0100
+
+    fix env
+
+[33mcommit 26862af8a18dc022988a4833cabb45c8c3423ddf[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri Mar 7 23:35:17 2025 +0100
+
+    change logo
+
+[33mcommit 82cb73a33678fcb3fc91520ad56fb6f7b60a4ab7[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Wed Mar 5 22:36:19 2025 +0100
+
+    update brand
+
+[33mcommit 6c855cacb6108dc7daea072afca38f843a9ef821[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sun Feb 16 20:37:06 2025 +0100
+
+    change webapp brand
+
+[33mcommit d13692bfb5df642b5a6c3c09fa26dd00625f541c[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sun Feb 16 15:35:09 2025 +0100
+
+    fix
+
+[33mcommit 22d17bb9eeee70b5b478f4f3ceb01c98b94c60b6[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sun Feb 16 15:02:36 2025 +0100
+
+    fix
+
+[33mcommit 521c878e16d459ccf7ca904807fde0403d1ee66b[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sat Feb 15 19:05:04 2025 +0100
+
+    fix
+
+[33mcommit bea992aa5424a91382b0ffb2c04fd369ca49ca44[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sat Feb 15 18:48:40 2025 +0100
+
+    fix
+
+[33mcommit ec62af75928d5d906ba59a1d896a1fd229c875d2[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sat Feb 15 18:43:37 2025 +0100
+
+    fix
+
+[33mcommit 40f264036fa2d565f8209a5d90e155f8cceab1f0[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Sat Feb 15 18:40:56 2025 +0100
+
+    fix
+
+[33mcommit f62f8d55b5037ac8b1463d215674bc3c352c31fc[m
+Author: Wassim Assidi <wassim.assidi@astrolab-group.com>
+Date:   Fri Feb 14 19:54:46 2025 +0100
+
+    first commit
