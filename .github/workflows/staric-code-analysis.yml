@@ -24,7 +24,6 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          # Specify the Node.js version used by the project
           node-version: '18'
 
       # 📦 Step 3: Install all project dependencies
@@ -35,10 +34,7 @@ jobs:
       - name: SonarQube Scan
         uses: sonarsource/sonarqube-scan-action@master
         env:
-          # 🔐 Authentication token used to connect to SonarQube
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-
-          # 🌐 URL of the SonarQube server
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
 
   # 🛡️ Job responsible for scanning the Docker image and filesystem for vulnerabilities
@@ -78,10 +74,11 @@ jobs:
           exit-code: '0'
           severity: 'CRITICAL,HIGH'
 
-    snyk-code-security-scan-job:
+  # 🐍 Job responsible for Snyk dependency/code security scanning
+  snyk-code-security-scan-job:
     runs-on: ubuntu-latest
-    steps:
 
+    steps:
       - name: Checkout Code
         uses: actions/checkout@v4
 
@@ -93,4 +90,3 @@ jobs:
 
       - name: Run Snyk Vulnerability Scan
         run: snyk monitor --all-projects --org=devops-Organization-by-soumaya
-        
